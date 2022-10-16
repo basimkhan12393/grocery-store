@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/myHome"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"/>
+    <item
+        android:id="@+id/MyRecords"
+        android:icon="@drawable/ic_baseline_library_books_24"
+        android:title="Records"/>
+
+    <item
+        android:id="@+id/AboutUss"
+        android:icon="@drawable/ic_baseline_about_us"
+        android:title="AboutUs"/>
+
+
+
+    <item
+        android:title="Communication And For Queries">
+        <menu>
+<group android:checkableBehavior="single">
+
+
+
+    <item
+        android:id="@+id/Chat"
+        android:icon="@drawable/ic_baseline_chat_24"
+        android:title="Chat with Us"/>
+    <item
+        android:id="@+id/Email"
+        android:icon="@drawable/ic_baseline_email_24"
+        android:title="Email Us"/>
+
+</group>
+
+        </menu>
+    </item>
+
+    <item
+        android:title="Others">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/Signout"
+                    android:title="SignOut"/>
+
+            </group>
+
+        </menu>
+    </item>
+
+
+
+
+
+</menu>

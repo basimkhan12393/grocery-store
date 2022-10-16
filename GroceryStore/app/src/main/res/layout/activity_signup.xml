@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8F2F9F"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark" />
+
+<ImageView
+    android:id="@+id/imageView3"
+    android:layout_width="180dp"
+    android:layout_marginTop="20dp"
+    android:layout_height="160dp"
+    android:layout_gravity="center"
+    app:srcCompat="@drawable/welcome_slider1" />
+
+<TextView
+    android:id="@+id/Rdoc"
+    style="@android:style/Widget.TextView.PopupMenu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:minHeight="48dp"
+    android:text="Join Us For Easy Buying "
+    android:textColor="#8F2F9F"
+    android:textStyle="bold"
+    android:translationY="5dp" />
+<TextView
+    android:id="@+id/SelectOption"
+    style="@android:style/Widget.TextView.PopupMenu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:minHeight="48dp"
+    android:text="Select One "
+    android:textColor="#8F2F9F"
+    android:textStyle="bold"
+    android:translationY="5dp" />
+
+<Button
+    android:id="@+id/BuyerReg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    android:background="@drawable/buttonrounded"
+    android:text="Buyer Registration"
+    android:textColor="@color/white"
+    android:textSize="20sp" />
+    <Button
+        android:id="@+id/AdminReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/buttonrounded"
+        android:text="Admin Registration"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+<TextView
+    android:id="@+id/Back"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:gravity="center"
+    android:text="Already Have An Account\nLogin"
+    android:textColor="#8F2F9F" />
+
+
+</LinearLayout>

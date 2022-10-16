@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:layout_margin="30dp"
+
+    android:background="#F5F2F6"
+    android:elevation="3dp">
+
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="70dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        android:text="Sprite"
+
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="184dp"
+        android:layout_height="143dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title1"
+        />
+
+    <TextView
+        android:id="@+id/fee12"
+        android:layout_width="43dp"
+        android:layout_height="20dp"
+
+        android:layout_marginTop="8dp"
+        android:text="0.0"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/pic"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/pic" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="37dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="8dp"
+        android:text="Rps :"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/pic"
+        app:layout_constraintTop_toBottomOf="@+id/pic" />
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="122dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="36dp"
+        android:text="desc"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/pic"
+        app:layout_constraintTop_toBottomOf="@+id/pic" />
+
+    <TextView
+        android:id="@+id/Btn_add"
+        android:layout_width="79dp"
+        android:layout_height="24dp"
+        android:layout_marginBottom="16dp"
+        android:background="#8F2F9F"
+        android:text="+Add"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/description"
+        app:layout_constraintHorizontal_bias="0.372"
+        app:layout_constraintStart_toStartOf="@+id/description"
+        app:layout_constraintTop_toBottomOf="@+id/description"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
